@@ -18,7 +18,8 @@
   <img src="assets/Imagenes/Logo.jpeg" alt="">
 </div>
   <h2>Gestión Documental</h2>
-  
+</header>
+
   <div class="container_menu">
     <div class="menu">
       <input type="checkbox" id="check__menu">
@@ -28,35 +29,19 @@
       <nav>
             <ul>
             
-              <li><b href="#">Archivo</b>
-                <ul>
-              <li><b href="#">Abrir</b></li>
-              <li><b href="#">Nuevo</b></li>
-              <li><b href="#">Guardar</b></li>
-              <li><b href="#">Guardar Como</b></li>
-              <li><b href="#">Registro</b></li>
-              <li><b href="#">Agenda</b></li>
-              <li><b href="#">Salir</b></li>
-            </ul></li>
-      <li><b href="#">Edición</b>
+              <li><b href="#">Inicio</b>
+              </li>
+             
+      <li><b href="#">Archivo</b>
         <ul>
-          <li><b href="#">Deshacer</b></li>
-          <li><b href="#">Rehacer</b></li>
-          <li><b href="#">Cortar</b></li>
-          <li><b href="#">Pegar</b></li>
-          <li><b href="#">Copiar</b></li>
-          <li><b href="#">Eliminar</b></li>
-          <li><b href="#">Buscar</b></li>
+          <li><b href="#">Agregar Documento</b></li>
+          <li><b href="#">Lista de Documentos</b></li>
+
         </ul></li>
-      <li><b href="#">Formato</b>
+      <li><b href="#">Configuración</b>
         <ul>
-          <li><b href="#">Alinear</b></li>
-          <li><b href="#">Fuente</b></li>
-          <li><b href="#">Párrafo</b></li>
-          <li><b href="#">Cortar</b></li>
-          <li><b href="#">Bordes y Sombreado</b></li>
-          <li><b href="#">Estilo y Formato</b></li>
-          <li><b href="#">Cuadro de Texto</b></li>
+          <li><b href="#">Nuevo Usuario</b></li>
+          <li><b href="#">Lista de Usuario</b></li>
         </ul></li>
       <li><b href="#">Ayuda</b>
         <ul>
@@ -72,16 +57,52 @@
   <main>
  
     <div class="caja1">
-    <h3>Pagina de Inicio</h3>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi tempore placeat deleniti officia eaque illo dolor dolores aliquid non, reprehenderit cupiditate sint explicabo quod reiciendis dolorem nihil! Ut, saepe quas.</p>
+<h3>EXPEDIENTE</h3>
+    <form>
+      <fieldset>
+        <legend>Descripción</legend>
+  <p>
+          <label>Titulo: <input name="Titulo" /></label>
+        </p>
+  <p>
+         <label>Código: <input name="Código" /></label>
+        </p>
+        <p>
+          <label>
+            Tipo de Documento
+            <br />
+            <select name="Tipo de Documento">
+              <option>----</option>
+              <option>.doc</option>
+              <option>.pdf</option>
+            </select>
+          </label>
+        </p> 
+  <p>
+          <label>Email: <input type="email" name="email" /></label>
+        </p>
+  <p>
+          <label>Fecha: <input type="date" name="birthDate"></label>
+        </p>
+  <p>
+          <label>
+            Address :
+            <br />
+            <textarea name="address" cols="50" rows="5"></textarea>
+          </label>
+        </p>
+  <p>
+          <button type="Enviar">Enviar</button>
+        </p>
+       </fieldset>
+    </form>   
   </div>
 
     <div class="caja2">
-        <h3>Pagina de Inicio</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi tempore placeat deleniti officia eaque illo dolor dolores aliquid non, reprehenderit cupiditate sint explicabo quod reiciendis dolorem nihil! Ut, saepe quas.</p>
+        <h3>ARCHIVOS</h3>
       </div>
-
+      
 </main>
-  </header>
+
 </body>
 </html>

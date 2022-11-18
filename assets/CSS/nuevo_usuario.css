@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+
+}
+body{
+    background-image: url(../Imagenes/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.registro {
+    width:400px;
+    padding: 20px;
+    background: #24303c;
+    margin: auto;
+    border-radius: 4px;
+    margin-top: 100px;
+    color: white; 
+}
+
+.control{
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5; 
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+.registro h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+
+.registro .button{
+  width: 100%; 
+  background: #1f53c5;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
+}
+/*RESPONSE*/
+@media screen and (max-width: 850px){
+.registro{
+        top: -10px;
+        left: -5px;
+        margin: auto;
+    }
+.registro .control{
+        position: relative;
+    }
+}

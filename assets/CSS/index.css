@@ -164,6 +164,11 @@ main{
     padding: 40px 20px;
     margin-top: 80px;
 }
+footer{
+	border-top: solid 1px black;
+	padding-top: 10px;
+	text-align: center;
+}
 /*article{
     max-width: 1600px;
     margin: 20px auto;
@@ -266,6 +271,10 @@ main{
 main{
     margin-top: 158;
 }
-
+footer{
+	border-top: solid 1px black;
+	padding-top: 10px;
+	text-align: center;
+}
 }
   
