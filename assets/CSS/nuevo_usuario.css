@@ -13,6 +13,12 @@ body{
     background-position: center;
     background-attachment: fixed;
 }
+img{
+    width: 120px;
+    height: 120px;
+    float:left;
+    padding: 15px;
+    }
 .registro {
     width:400px;
     padding: 20px;
@@ -36,8 +42,8 @@ body{
 .registro h4{
     font-size: 22px;
     margin-bottom: 20px;
+    text-align: center;
   }
-
 .registro .button{
   width: 100%; 
   background: #1f53c5;

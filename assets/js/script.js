@@ -1,4 +1,4 @@
-alert("Bienvenido");
+
 document.getElementById("btn_iniciarsesion").addEventListener("click", IniciarSesion);
 document.getElementById("btn_registrar").addEventListener("click", registro);
 window.addEventListener("resize", anchoPag);
